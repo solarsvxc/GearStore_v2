@@ -7,7 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
     <title>GearStore</title>
     <link rel="stylesheet" href="styleShop.css">
 </head>
@@ -27,10 +29,10 @@
                 </div>
             </div>
             <!-- header -->
-            <header class="container-fluid navibar ">
+            <header class="container-fluid navibar p-1">
                 <div class="row navbar-expand-sm">
                     <div class="col-2">
-                        <img src="img/LOGolast.png" alt="" class="img">
+                        <a href="ShopMain.html"><img src="img/LOGolast.png" alt="" class="img"></a>
                     </div>
                     <div class="col-1"></div>
                     <div class="search col-6 d-block position-static justify-content-center align-content-center p-2 ">
@@ -61,12 +63,12 @@
         <div class="container-xxl device-tag ">
             <div class="row">
                 <ul class="col-12 device-torch d-flex justify-content-center justify-content-around p-3">
-                    <li><a href="cpu.html"><i class="ri-cpu-line"></i>&nbsp;Cpu</a></li>
-                    <li><a href="#keyboard"><i class="ri-keyboard-box-line"></i>&nbsp;Keyboard</a></li>
-                    <li><a href="#mouse"><i class="ri-mouse-line"></i>&nbsp;Mouse</a></li>
-                    <li><a href="#ram"><i class="ri-ram-2-line"></i>&nbsp;Ram</a></li>
-                    <li><a href="#screen"><i class="ri-computer-line"></i>&nbsp;Screen</a></li>
-                    <li><a href="#components"><i class="ri-hammer-line"></i>&nbsp;Other Components</a></li>
+                    <li><a href="cpu.html"><i class="ri-cpu-line"></i>&nbsp;CPU</a></li>
+                    <li><a href="#keyboard"><i class="ri-keyboard-box-line"></i>&nbsp;BÀN PHÍM</a></li>
+                    <li><a href="#mouse"><i class="ri-mouse-line"></i>&nbsp;CHUỘT</a></li>
+                    <li><a href="#ram"><i class="ri-ram-2-line"></i>&nbsp;RAM</a></li>
+                    <li><a href="#screen"><i class="ri-computer-line"></i>&nbsp;MÀN HÌNH</a></li>
+                    <li><a href="#components"><i class="ri-hammer-line"></i>&nbsp;BUID PC</a></li>
                 </ul>
             </div>
         </div>   
@@ -74,7 +76,6 @@
         <!-- picture slide adverstiment-->
         <div class="container-xxl">
             <div class="row text-center col-xl-12 img-banner-slide">
-
                 <img src="img/banner-thuonghieu/thuonghieu-banner.webp" alt="" class="img">
                 <img src="img/banner-thuonghieu/690x300.webp" alt="" class="img">
                 <img src="" alt="" class="img">
@@ -107,12 +108,28 @@
                 <h2>SALE 80% ngày 31/04/2024</h2>
             </div>
         </div>
+        <div class="container-xxl product-most">
+            <div class="row">
+                <div class="product-most-title">
+                     <span>SẢN PHẨM BÁN CHẠY </span>
+                </div>
+                <div class=" row procduct-most-product d-flex gap-5">
+                    <div class="col-lg-2">
+                        <a href="">
+                            <img src="img/08_Apra49b29d8d18b2a011a17580ce2047c6e.jpg" alt="" width="365" height="365" style="border-radius: 10px;"> 
+                        </a>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        
         <!-- body product sale-->
         <div class="container-xxl product-sale">
             <div class="row ">
                 <!--Header product sale-->
                 <div class="row head-product-sale text-center">
-                    <h3>CPU</h3>
+                    <span class="header-topic">CPU</span>
                 </div>
                 <!-- Product sale-->
                 <div class="row product d-flex justify-content-around">
@@ -130,7 +147,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Intel Core i5 13500</h5>
                             <h6 class="card-subtitle">4000.000.000</h6>
-                            
                             <a href="" class="card-link">Mua Ngay</a>
                         </div>
                     </div>
@@ -148,7 +164,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Intel core i9 14900K</h5>
                             <h6 class="card-subtitle">4000.000.000</h6>
-                           
+                            
                             <a href="" class="card-link">Mua Ngay</a>
                         </div>
                     </div>
@@ -171,7 +187,7 @@
             <div class="row head-screen col-12">
                     <!--Screen product-->
                     <div class="row text-center padding-top-bottom-175rem">
-                        <h3>SCREEN</h3>
+                        <span class="header-topic">MÀN HÌNH</span>
                     </div>
                    <!--Screen Card-product-->
                     <div class="row screen-card-product gap-5 d-lg-flex justify-content-evenly ">
@@ -238,8 +254,9 @@
             
             <div class="row">
                 
-               <div class="col-12 text-center pt-2 header-graphic">
-                    <h3>GRAPHIC CARD</h3>
+               <div class="col-12 pt-2 header-graphic">
+                    <span class="header-topic">GRAPHIC CARD</span>
+                    <span class="sub-header">20% discount</span>
                </div>
                 <div class="container-xxl  ">
                     <div class="row p-3 d-flex justify-content-evenly">

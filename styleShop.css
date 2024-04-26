@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto Mono';
+    font-family: "Sen", sans-serif;
 }
 
 body{
@@ -17,14 +17,15 @@ li{
         overflow: hidden;
         padding: 5px;
 }
-
-
 .react {  
     font-size: 1.75rem;
     text-align: center;
 }
-.react a {
-    color:#4E9F3D;
+.react span a {
+    color:#edf5ec;
+}
+.react li a {
+    color:#4e9f3d ;
 }
 .navibar{
     background: #191A19;
@@ -32,7 +33,8 @@ li{
     
 }
 .react-subtitle{
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .img-slide {
     padding-top: 20px;
@@ -98,6 +100,15 @@ li{
 }
 .card-2{
     padding: 15px;
+}
+.card-body .card-title{
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.card-body .card-subtitle{
+    color: #e00049;
+    font-size: 15px;
 }
 .more-btn{
     background: none;
@@ -167,4 +178,18 @@ li{
     font-family: "Roboto";
     font-weight: 400;
     font-style: normal;
+}
+ .header-topic {
+   font-weight: 700;
+   font-size: 32px;
+   
+}
+.product-most{
+    background: #e8f2cb;
+    padding: 10px;
+    border-radius: 16px;
+}
+.product-most .product-most-title {
+    font-size: 32px;
+    font-weight: 700;
 }
