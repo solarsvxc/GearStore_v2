@@ -188,6 +188,7 @@ li{
     background: #e8f2cb;
     padding: 10px;
     border-radius: 16px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 .product-most .product-most-title {
     font-size: 32px;
