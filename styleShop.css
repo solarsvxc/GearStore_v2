@@ -63,28 +63,23 @@ li{
     
 }
 .brand-logo{
-    background-color:#D8E9A8;
-    padding-top: 10px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    margin-top: 10px;
 }
 .needs-link{
     background:#4E9F3D;
     border-radius: 16px;
-
 }
 .needs-link a {
     color: #191A19;
     font-weight: 600;
-    font-size: 14px;
-    padding: 0 10px 0 10px;
+    font-size: 16px;
+    padding: 8px;
 }
 
 .needs{
-    padding-top: 10px;
-    background: #D8E9A8;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    padding: 0;
 }
 .btn {
     background-color: #e00049;
@@ -208,6 +203,26 @@ li{
     top: 50%;
     transform: translateY(-50%);
   }
+.location-list .mt-2 a {
+    color: #e00049;
+}
+.location-list .mt-2 a span {
+    font-weight: 500;
+    font-size: 16px;
+}
+.advertisment {
+    background-color: #D8E9A8;
+    border-radius: 16px;
+}
+.advertisment .carousel .carousel-item img   {
+    border-radius: 8px;
+}
 
+
+.header-location h5 {
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+}
   
  
