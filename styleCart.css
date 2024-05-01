@@ -1,0 +1,28 @@
+
+ /* --------------------------------Cart---------------------------- */
+ .cart {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+ }
+ .cart h2 {
+    margin-bottom: 20px;
+ }
+ .cart table {
+    width: 100%;
+
+ }
+ .cart table thead tr th:first-child {
+   text-align: left;
+ }
+ .cart table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0 ;
+ }
+ .cart table thead tr th:last-child {
+    text-align: right;
+  }
+  .cart table tbody tr td:last-child {
+   text-align: right;
+  }
