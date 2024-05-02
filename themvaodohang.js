@@ -15,15 +15,20 @@ function addcart(productPrice, productImg, productName) {
     var addtr = document.createElement("tr");
     var cartItem = document.querySelectorAll("tbody tr");
     for (var i = 0; i < cartItem.length; i++) {
-        var productT = document.querySelectorAll
+        var productT = document.querySelectorAll(".title")
+        if(productT[i].innerHTML==productName) {
+            alert("Sản phẩm của bạn đã có trong giỏ hàng")
+            return 
+        }
 
     }
-    var trcontent = '<td style="display: flex; align-items: center;"><img style="width: 70px;" src="' + productImg + '" alt="">' + productName + '</td><td> <p><span>' + productPrice + '</span><sup>đ</sup></p></td> <td><input style="width: 30px; outline: none; " type="number" value="1" min="1"></td><td style="cursor: pointer;">Xóa</td>';
+    var trcontent = '<td style="display: flex; align-items: center;"><img style="width: 70px;" src="' + productImg + '" alt=""><span class="title">' + productName + '</span></td><td> <p><span class="price">' + productPrice + '</span><sup>đ</sup></p></td> <td><input style="width: 30px; outline: none; " type="number" value="1" min="1"></td><td style="cursor: pointer;"><span class="cartDellet">Xóa</span></td>';
     addtr.innerHTML = trcontent;
     var cartTable = document.querySelector("tbody");
     cartTable.appendChild(addtr);
 
     carttotal()
+    delletCart()
 } 
 
 // ------------------hamtong-----------
@@ -33,15 +38,54 @@ function carttotal() {
 
     for (var i = 0; i < cartItem.length; i++) {
         var inputValue = parseInt(cartItem[i].querySelector("input").value);
-        var productPriceText = cartItem[i].querySelector("span").innerText;
+        var productPriceText = cartItem[i].querySelector(".price").innerText;
         var productPrice = parseFloat(productPriceText.replace('đ', '').replace(',', '')); // Loại bỏ 'đ' và dấu ',' nếu có
 
-        var totalA = inputValue * productPrice * 1000; // Tính tổng tiền của mỗi sản phẩm
+        totalA = inputValue * productPrice * 1000; // Tính tổng tiền của mỗi sản phẩm
         totalC = totalC + totalA; // Cộng tổng tiền của mỗi sản phẩm vào tổng tổng cộng của giỏ hàng
-        totalD= totalC.toLocaleString('de-DE')
+        // totalD= totalC.toLocaleString('de-DE')
 
     }
 
     var carTotalA = document.querySelector(".price-total span");
-    carTotalA.innerHTML = totalD; // Sử dụng toLocaleString() để định dạng số có dấu phẩy
+  
+   
+    carTotalA.innerHTML = totalC.toLocaleString('de-DE')// Sử dụng toLocaleString() để định dạng số có dấu phẩy
+   
+    inputchange ()
 }
+// ----------------------Dellet------------------C
+function delletCart() {
+    var cartItem = document.querySelectorAll("tbody tr");
+    for (var i = 0; i < cartItem.length; i++) {
+        var productT = document.querySelectorAll(".cartDellet")
+        productT[i].addEventListener("click", function(event) {
+            var cartDellet = event.target
+            var cartItemR = cartDellet.parentElement.parentElement
+            cartItemR.remove()
+            carttotal(); // Cập nhật tổng tiền sau khi xóa sản phẩm
+        })
+    }
+}
+function inputchange () {
+    var cartItem = document.querySelectorAll("tbody tr");
+    for (var i = 0; i < cartItem.length; i++) {
+        var inputValue = cartItem[i].querySelector("input")
+        inputValue.addEventListener("change",function(){
+            carttotal();
+        })
+    }
+}
+const cartbtn = document.querySelector(".fa-times")
+const cartshow = document.querySelector(".ri-shopping-cart-2-line"); // Chỉnh sửa selector để chọn đúng biểu tượng giỏ hàng
+const cart = document.querySelector(".cart"); // Chọn phần tử chứa giỏ hàng
+
+cartshow.addEventListener("click", function() {
+    cart.style.right = "0"; // Hiển thị giỏ hàng bằng cách thiết lập right thành 0
+});
+cartbtn.addEventListener("click", function() {
+    cart.style.right = "-100%"; // Hiển thị giỏ hàng bằng cách thiết lập right thành 0
+});
+
+
+
