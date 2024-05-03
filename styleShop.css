@@ -1,9 +1,10 @@
 *{
-    font-family: "Sen", sans-serif;
+    font-family: 'Lexend';
 }
 
 body{
     margin: 0;
+    background-color: #ececec;
 }
 a {
     text-decoration: none;
@@ -27,7 +28,7 @@ li{
 .react li a {
     color:#4e9f3d ;
 }
-.navibar{
+.container-fluid .navibar{
     background: #191A19;
     padding: 10px;
     
@@ -40,18 +41,20 @@ li{
     padding-top: 20px;
 }
 .device-torch{
-   
     display: flex;
     position: relative;
     align-items: center;
    
 }
 .device-torch  a {
-    font-weight: 400;
+    font-weight: 500;
     color: #191A19;
 }
 .device li {
     padding: 10px;
+}
+.device-tag {
+    background-color: white;
 }
 .img-banner-slide{
     display: flex;
@@ -62,8 +65,17 @@ li{
     max-width: 500px;
     
 }
-.brand-logo{
-    margin-top: 10px;
+.brand{
+    padding: 10px;
+    background-color: white;
+    border-radius: 18px;
+}
+.brand .header-brand h3{
+    font-weight: 500;
+
+}
+.brand .brand-logo{
+
 }
 .needs-link{
     background:#4E9F3D;
@@ -211,18 +223,14 @@ li{
     font-size: 16px;
 }
 .advertisment {
-    background-color: #D8E9A8;
     border-radius: 16px;
 }
 .advertisment .carousel .carousel-item img   {
     border-radius: 8px;
 }
-
-
-.header-location h5 {
-    background-color: #ffffff;
-    padding: 8px;
-    border-radius: 8px;
+.footer {
+    padding: 20px;
+    background-color: white;
 }
   
  
