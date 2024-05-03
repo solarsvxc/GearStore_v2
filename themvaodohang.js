@@ -86,6 +86,18 @@ cartshow.addEventListener("click", function() {
 cartbtn.addEventListener("click", function() {
     cart.style.right = "-100%"; // Hiển thị giỏ hàng bằng cách thiết lập right thành 0
 });
+const cartSection = document.querySelector('.cart');
 
+        // Get the close button
+        const closeBtn = document.getElementById('closeCartBtn');
+
+        // Add click event listener to the close button
+        closeBtn.addEventListener('click', function(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+            
+            // Hide the cart section
+            cartSection.style.display = 'none';
+        });
 
 
