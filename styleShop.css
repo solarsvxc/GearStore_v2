@@ -1,9 +1,10 @@
 *{
     font-family: 'Lexend';
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: 0;
     background-color: #ececec;
 }
 a {
@@ -30,7 +31,6 @@ li{
 }
 .container-fluid .navibar{
     background: #191A19;
-    padding: 10px;
     
 }
 .react-subtitle{
@@ -72,9 +72,6 @@ li{
 }
 .brand .header-brand h3{
     font-weight: 500;
-
-}
-.brand .brand-logo{
 
 }
 .needs-link{
@@ -233,4 +230,23 @@ li{
     background-color: white;
 }
   
+.sale-head {
+    font-family:'Independence';
+    font-size: 64px;
+    color: #e00049;
+}
+.caodao{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.caodao .numbers {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e00049;
+}
+.sale-banner {
+    background-color: white;
+    border-radius: 20px;
+}
+
  

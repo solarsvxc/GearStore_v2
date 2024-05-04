@@ -10,7 +10,9 @@
    
 }
 
-
+.defin{
+    background-color: #ffffff;
+}
 .product-items {
     display: flex;
     justify-content: space-between;
