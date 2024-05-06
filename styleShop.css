@@ -1,9 +1,11 @@
 *{
-    font-family: "Sen", sans-serif;
+    font-family: 'Lexend';
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: 0;
+    background-color: #ececec;
 }
 a {
     text-decoration: none;
@@ -27,9 +29,8 @@ li{
 .react li a {
     color:#4e9f3d ;
 }
-.navibar{
+.container-fluid .navibar{
     background: #191A19;
-    padding: 10px;
     
 }
 .react-subtitle{
@@ -40,18 +41,20 @@ li{
     padding-top: 20px;
 }
 .device-torch{
-   
     display: flex;
     position: relative;
     align-items: center;
    
 }
 .device-torch  a {
-    font-weight: 400;
+    font-weight: 500;
     color: #191A19;
 }
 .device li {
     padding: 10px;
+}
+.device-tag {
+    background-color: white;
 }
 .img-banner-slide{
     display: flex;
@@ -62,8 +65,14 @@ li{
     max-width: 500px;
     
 }
-.brand-logo{
-    margin-top: 10px;
+.brand{
+    padding: 10px;
+    background-color: white;
+    border-radius: 18px;
+}
+.brand .header-brand h3{
+    font-weight: 500;
+
 }
 .needs-link{
     background:#4E9F3D;
@@ -211,18 +220,33 @@ li{
     font-size: 16px;
 }
 .advertisment {
-    background-color: #D8E9A8;
     border-radius: 16px;
 }
 .advertisment .carousel .carousel-item img   {
     border-radius: 8px;
 }
-
-
-.header-location h5 {
-    background-color: #ffffff;
-    padding: 8px;
-    border-radius: 8px;
+.footer {
+    padding: 20px;
+    background-color: white;
 }
   
+.sale-head {
+    font-family:'Independence';
+    font-size: 64px;
+    color: #e00049;
+}
+.caodao{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.caodao .numbers {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e00049;
+}
+.sale-banner {
+    background-color: white;
+    border-radius: 20px;
+}
+
  

@@ -1,19 +1,21 @@
 *{
-    font-family: "Sen", sans-serif;
+    font-family: 'Lexend';
+    margin: 0;
+    padding: 0;
 }
 
 
 .filter-md{
-   margin-bottom: 1rem;
-   background-color: #edf5ec;
+   background-color: #ffffff;
+   border-radius: 8px;
 }
 .filter-warpper .dropdown a {
     font-weight: 500;
 }
 .defin {
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 1rem;
-    background-color: #edf5ec;
+    background-color: #ffffff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
