@@ -6,6 +6,7 @@
 
 body{
     background-color: #ececec;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -13,30 +14,101 @@ a {
 li{
     list-style-type: none;
 }
+
 .bannerTopHead{
         background-color: #e9efff;
         max-height: 40px;
         overflow: hidden;
         padding: 5px;
 }
-.react {  
-    font-size: 1.75rem;
-    text-align: center;
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+   }
+   
+.input {
+    height: 30px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+.input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: #4E9F3D;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
 }
-.react span a {
-    color:#edf5ec;
+.background-white{
+    background-color: #ffffff;
 }
-.react li a {
-    color:#4e9f3d ;
-}
-.container-fluid .navibar{
-    background: #191A19;
-    
-}
-.react-subtitle{
-    font-size: 16px;
+.user div a i {
+    font-size: 24px;
     font-weight: 500;
+    color: #4E9F3D;
 }
+  
+  .toolltip {
+    position: relative;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .toolltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltiptext::after {
+    content: "";
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+  }
+  .toolltip .iconn { 
+    color: #fff;
+  }
+  
+  
 .img-slide {
     padding-top: 20px;
 }
@@ -138,22 +210,11 @@ li{
     max-height: 100px;
     font-size: 14px;
 }
-.search-input{
-    height: 40px;
-    width: 40rem;
-    border: none;
-    border-radius: 8px;
-}
 
-.btn-search{
-    background: none;
-    font-weight: 700;
-    font-size: 16px;
-    color: #4E9F3D;
-    padding: 8px;
-    border: none;
 
-}
+
+
+
 .gap-175rem{
     gap: 1.75rem;
 }

@@ -27,25 +27,28 @@
   .cart table tbody tr td:last-child {
    text-align: right;
   }
-  .cart {
+
+.cart {
    position: fixed;
-   height: 100vh;
-   width: 600px;
+   height: 100%;
+   width: 500px;
    right: 0;
    top: 100px;
-   background-color: #465e13;
+   background-color: #ffff;
    padding: 12px 20px;
    overflow-y: scroll;
    right: -100%;
+   border-radius: 20px;
+  margin-right: 5px;
   }
-  .cart button {
+.cart button {
    margin-top: 20px;
    height: 30px ;
-   padding: 0 12px;
+   padding: 12px;
    cursor: pointer;
    border: none;
    border-radius: 5px;
-  background-color: chocolate;
+  background-color: #ffff;
   }
   .cart i {
    cursor: pointer;
