@@ -35,8 +35,8 @@
             <h4>GEAR STORE</h4>
             <H1>Welcome to <span class="shopname">GEARSTORE</span></H1>
             <p class="">With over 10 years of experience in the computer components market,
-            we are proud to be a reputable supplier for individuals and businesses in Vietnam.
-            We are two students from <span><a href="https://vku.udn.vn/en/home/" target="_blank">Vietnam-Korea University of Information and Communication Technology</a></span>. This website was developed as part of our Fundamentals of IT 1 coursework. It features a user-friendly interface, a secure payment gateway, and a comprehensive inventory of computer components and repair services.
+            we are proud to be a reputable supplier for individuals and businesses in VietNam.
+            We are two students from <span><a href="https://vku.udn.vn/en/home/" target="_blank">VietNam-Korea University of Information and Communication Technology</a></span>. This website was developed as part of our Fundamentals of IT 1 coursework. It features a user-friendly interface, a secure payment gateway, and a comprehensive inventory of computer components and repair services.
             We have designed, developed, and implemented the website to provide a convenient and reliable platform for customers to purchase computer components and repair services. The project has been a valuable learning experience for us, and we are proud of what we have accomplished.
         </p>    
             <span class="blur-2"></span>
@@ -56,7 +56,12 @@
                     Viet Nam.
                     
                 </p>
-                <button class="button" >Shopping Now</button>
+                <button class="button" onclick="openLink()" >Shopping Now</button>
+                <script>
+                    function openLink(){
+                        window.location.href="ShopMain.html";
+                    }
+                </script>
             </div>
             <div class="card">
                 <span><i class="ri-store-2-line"></i></span>
@@ -77,15 +82,6 @@
             </div>
         </div>
         <span class="blur"></span>
-    </section>
-    <div class="container-fluid">
-        <div class="dev-team">
-            <div class="row">
-                    
-            </div>
-        </div>
-
-    </div>
-    
+    </section> 
 </body>
 </html>
