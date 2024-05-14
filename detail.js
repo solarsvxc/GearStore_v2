@@ -20,21 +20,18 @@ if(!thisProduct){
 detail.querySelector('.product-img img').src = thisProduct.image;
 detail.querySelector('.product-title').innerText = thisProduct.name;
 detail.querySelector('.product-price').innerText = '$' + thisProduct.price;
-detail.querySelector('.description').innerText = '$' + thisProduct.description;
-
+detail.querySelector('.product-brand').innerText = thisProduct.brand;
 
 (products.filter(value => value.id != productId)).forEach(product => {
     let newProduct = document.createElement('a');
     newProduct.href = '/detail.html?id=' + product.id;
     newProduct.classList.add('item');
-    newProduct.innerHTML = 
+    newProduct.innerHTML =
     `
-
     <img src="${product.image}" alt="">
     <div class="product-title">${product.name}</div>
-    <div class="product-price">$${product.price}</div>
-
-    
+    <div class="product-price">${product.price}</div>
+    <div>Hãng sản xuất: <span class="product-brand">${product.brand}</span></div>
     `;
 });
 }
