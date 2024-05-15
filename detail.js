@@ -1,8 +1,7 @@
+
 let products = null;
 // get datas from file json
-fetch('/json/cpu.json')
-    .then(response => response.json())
-    .then(data => {
+fetch('/json/cpu.json').then(response => response.json()).then(data => {
         products = data;
         showDetail();
 })

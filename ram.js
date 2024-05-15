@@ -3,7 +3,7 @@ let products = null;
 // get datas from file json
 
     // 
-    fetch('/json/cpu.json')
+    fetch('/json/ram.json')
     .then(response => response.json())
     .then(data => {
         products = data;

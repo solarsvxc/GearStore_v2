@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css" rel="stylesheet">
     <title>GearStore</title>
     <link rel="stylesheet" href="styleShop.css">
+    <script src="cpu.js"></script>
 </head>
     <body>
         <div class="container-fluid">
@@ -76,11 +77,11 @@
         <div class="container-fluid device-tag ">
             <div class="row ">
                 <ul class="col-sm-12 device-torch d-flex justify-content-center justify-content-evenly m-0 mt-1 mb-1">
-                    <li><a href="cpu.html"><i class="ri-cpu-line"></i>&nbsp;CPU</a></li>
-                    <li><a href="keyboard.html"><i class="ri-keyboard-box-line"></i>&nbsp;BÀN PHÍM</a></li>
-                    <li><a href="mouse.html"><i class="ri-mouse-line"></i>&nbsp;CHUỘT</a></li>
-                    <li><a href="ram.html"><i class="ri-ram-2-line"></i>&nbsp;RAM</a></li>
-                    <li><a href="screen.html"><i class="ri-computer-line"></i>&nbsp;MÀN HÌNH</a></li>
+                    <li onclick="product('/json/cpu.json')"><a href="cpu.html"><i class="ri-cpu-line"></i>&nbsp;CPU</a></li>
+                    <li><a href="keyboard.html" onclick="product('/json/keyboard.json')"><i class="ri-keyboard-box-line"></i>&nbsp;BÀN PHÍM</a></li>
+                    <li><a href="mouse.html" onclick="product('/json/mouse.json')"><i class="ri-mouse-line"></i>&nbsp;CHUỘT</a></li>
+                    <li><a href="ram.html" onclick="product('/json/ram.json')"><i class="ri-ram-2-line"></i>&nbsp;RAM</a></li>
+                    <li><a href="screen.html" onclick="product('/json/screen.json')"><i class="ri-computer-line"></i>&nbsp;MÀN HÌNH</a></li>
                     <li><a href="buildpc.html"><i class="ri-hammer-line"></i>&nbsp;BUID PC</a></li>
                 </ul>
             </div>

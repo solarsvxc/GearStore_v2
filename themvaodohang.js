@@ -26,7 +26,6 @@ function addcart(productPrice, productImg, productName) {
     addtr.innerHTML = trcontent;
     var cartTable = document.querySelector("tbody");
     cartTable.appendChild(addtr);
-
     carttotal()
     delletCart()
 } 
