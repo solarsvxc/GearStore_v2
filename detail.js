@@ -1,6 +1,6 @@
 let products = null;
 // get datas from file json
-fetch('cpu.json')
+fetch('/json/cpu.json')
     .then(response => response.json())
     .then(data => {
         products = data;
@@ -17,10 +17,10 @@ if(!thisProduct){
     window.location.href = "/";
 }
 
-detail.querySelector('.product-img img').src = thisProduct.image;
-detail.querySelector('.product-title').innerText = thisProduct.name;
-detail.querySelector('.product-price').innerText = '$' + thisProduct.price;
-detail.querySelector('.product-brand').innerText = thisProduct.brand;
+detail.querySelector('.product-img img ').src = thisProduct.image;
+detail.querySelector('.product-title ').innerText = thisProduct.name;
+detail.querySelector('.product-price ').innerText = thisProduct.price;
+detail.querySelector('.product-brand ').innerText = thisProduct.brand;
 
 (products.filter(value => value.id != productId)).forEach(product => {
     let newProduct = document.createElement('a');
@@ -29,9 +29,13 @@ detail.querySelector('.product-brand').innerText = thisProduct.brand;
     newProduct.innerHTML =
     `
     <img src="${product.image}" alt="">
+
     <div class="product-title">${product.name}</div>
+
     <div class="product-price">${product.price}</div>
+
     <div>Hãng sản xuất: <span class="product-brand">${product.brand}</span></div>
+
     `;
 });
 }
