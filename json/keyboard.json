@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 2,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 3,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 4,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 5,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 6,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 7,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 8,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 9,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    },
+    {
+        "id": 10,
+        "name":"Cpu Core I3 13400F",
+        "price": "200.000.000" ,
+        "image": "img/cpu/core-i3-12100f.webp",
+        "brand":"Intel"
+    }
+    
+   
+]
