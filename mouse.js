@@ -7,7 +7,7 @@ let products = null;
     .then(data => {
         products = data;
         addDataToHTML();
-        location.reload();
+
 })
 // 
 

@@ -1,10 +1,14 @@
 
 let products = null;
 // get datas from file json
-fetch('/json/cpu.json').then(response => response.json()).then(data => {
-        products = data;
-        showDetail();
-})
+
+    if () {
+        
+        fetch('/json/cpu.json').then(response => response.json()).then(data => {
+            products = data;
+            showDetail();
+        })
+    }
 
 function showDetail(){
 // remove datas default from HTML

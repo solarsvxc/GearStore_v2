@@ -34,6 +34,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
   }
   nav a{
     height: 100%;
@@ -61,12 +62,20 @@ nav{
     color: #4E9F3D;
     font-weight: 500;
   }
+  .logo-end {
+    display: none;
+  }
   @media(max-width: 666px){
-    
+    .logo-end {
+        display: flex;
+        justify-content: flex-start;
+        
+        margin:auto;
+      }
     .links-container{
       flex-direction: column;
       align-items: flex-start;
-  
+      justify-content: flex-start;
       position: fixed;
       top: 0;
       right: -100%;
@@ -100,7 +109,12 @@ nav{
       left: 0;
       z-index: 9;
     }
+    .product-most{
+        display: none;
+    }
   }
+
+/*  */
 
 /*  */
 .container-header {
@@ -114,9 +128,7 @@ nav{
         overflow: hidden;
         padding: 5px;
 }
-.container-xxl{
-    max-width: 100%;
-}
+
 .group {
     display: flex;
     line-height: 18px;
@@ -126,17 +138,8 @@ nav{
     max-width: 100px;
 
    }
-.advertisment {
-    display: flex;
-}
- .left-advertisment {
-    display: flex;
- }
-@media screen and (max-width:768px){
-   .advertisment .left-advertisment .row {
-        display: none;
-    }
-}
+
+
 .input {
     height: 30px;
     line-height: 28px;

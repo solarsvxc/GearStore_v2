@@ -1,7 +1,6 @@
 
 let products = null;
 // get datas from file json
-
     // 
     fetch('/json/cpu.json')
     .then(response => response.json())
@@ -9,9 +8,6 @@ let products = null;
         products = data;
         addDataToHTML();
 })
-// 
-
-
 // 
 function addDataToHTML(){
 // remove datas default from HTML
