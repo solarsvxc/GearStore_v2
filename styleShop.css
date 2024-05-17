@@ -1,10 +1,12 @@
 *{
     font-family: 'Lexend';
-    margin: 0;
-    padding: 0;
+   
 }
 
 body{
+    
+   
+  
     background-color: #ececec;
     overflow-x: hidden;
 }
@@ -14,6 +16,97 @@ a {
 li{
     list-style-type: none;
 }
+/*  */
+:root{
+    --color-1: #fffff;
+    --text-color: #ffffff;
+  }
+nav{
+    height: 60px;
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .links-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  nav a{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  nav a:hover{
+    background-color: var(--accent-color);
+  }
+  nav .home-link{
+    margin-right: ;
+  }
+  nav svg{
+    fill: var(--text-color);
+  }
+  #sidebar-active{
+    display: none;
+  }
+  .open-sidebar-button, .close-sidebar-button{
+    display: none;
+    font-size: 2rem;
+    color: #4E9F3D;
+    font-weight: 500;
+  }
+  @media(max-width: 666px){
+    
+    .links-container{
+      flex-direction: column;
+      align-items: flex-start;
+  
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 10;
+      width: 300px;
+  
+      background-color: #ffffff;
+      box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+      transition: 0.75s ease-out;
+    }
+   
+    nav a{
+      box-sizing: border-box;
+      height: auto;
+      width: 100%;
+      padding: 20px 30px;
+      justify-content: flex-start;
+    }
+    .open-sidebar-button, .close-sidebar-button{
+      padding: 20px;
+      display: block;
+    }
+    #sidebar-active:checked ~ .links-container{
+      right: 0;
+    }
+    #sidebar-active:checked ~ #overlay{
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+  }
+
+/*  */
+.container-header {
+    max-width: 100%;
+    max-height: 10%;
+}
 
 .bannerTopHead{
         background-color: #e9efff;
@@ -21,14 +114,29 @@ li{
         overflow: hidden;
         padding: 5px;
 }
+.container-xxl{
+    max-width: 100%;
+}
 .group {
     display: flex;
-    line-height: 28px;
+    line-height: 18px;
     align-items: center;
+    margin: 20px;
     position: relative;
-    max-width: 190px;
+    max-width: 100px;
+
    }
-   
+.advertisment {
+    display: flex;
+}
+ .left-advertisment {
+    display: flex;
+ }
+@media screen and (max-width:768px){
+   .advertisment .left-advertisment .row {
+        display: none;
+    }
+}
 .input {
     height: 30px;
     line-height: 28px;
