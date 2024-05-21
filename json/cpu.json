@@ -10,7 +10,7 @@
         "id": 2,
         "name":"Cpu Core I3 13400F",
         "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "image": "GearStore_v2/img/cpu/core-i3-12100f.webp",
         "brand":"Intel"
     },
     {
