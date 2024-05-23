@@ -4,9 +4,7 @@
 }
 
 body{
-    
    
-  
     background-color: #ececec;
     overflow-x: hidden;
 }
@@ -48,7 +46,7 @@ nav{
     background-color: var(--accent-color);
   }
   nav .home-link{
-    margin-right: ;
+       
   }
   nav svg{
     fill: var(--text-color);
@@ -65,12 +63,10 @@ nav{
   .logo-end {
     display: none;
   }
-  @media(max-width: 666px){
+  @media(max-width: 1080px){
     .logo-end {
-        display: flex;
-        justify-content: flex-start;
-        
-        margin:auto;
+        display: contents;
+        content: "";
       }
     .links-container{
       flex-direction: column;
@@ -115,6 +111,55 @@ nav{
   }
 
 /*  */
+@keyframes marquee {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+.slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  margin-top: 3rem;
+  overflow: hidden;  /* Prevents scrollbars during animation */
+  background-color: #C5E8C5;
+  margin-bottom: 3rem;
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;  /* Reduced duration for faster speed */
+
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  gap: 3em;
+
+}
+.content p {
+  font-size: 4em;
+  margin: 0.5em 0 0;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #000000;
+}
+
 
 /*  */
 .container-header {
@@ -322,13 +367,6 @@ nav{
     font-size: 14px;
 }
 
-
-
-
-
-.gap-175rem{
-    gap: 1.75rem;
-}
 .graphic-card-product{
     background-color: #D8E9A8;
 }
@@ -391,34 +429,19 @@ nav{
     font-weight: 500;
     font-size: 16px;
 }
-.advertisment {
-    border-radius: 16px;
-}
-.advertisment .carousel .carousel-item img   {
-    border-radius: 8px;
-}
 .footer {
     padding: 20px;
     background-color: white;
 }
-  
-.sale-head {
-    font-family:'Independence';
-    font-size: 64px;
-    color: #e00049;
-}
-.caodao{
-    font-size: 24px;
-    margin-top: 20px;
-}
-.caodao .numbers {
-    font-size: 24px;
-    font-weight: 700;
-    color: #e00049;
-}
-.sale-banner {
-    background-color: white;
-    border-radius: 20px;
-}
+    @media(max-width: 1080px) {
+        .device-tag .device-torch {
+            font-size: 14px;
+        }
+        
+        h5 .card-title {
+            font-size: 13px;
+        }
+ }
+
 
  

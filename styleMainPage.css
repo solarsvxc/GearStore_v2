@@ -77,10 +77,12 @@ h4{
     font-weight: 900;
     color: #D8E9A8;
 }
-header p {
+header .content {
     color: #D8E9A8;
     padding-top: 3rem;
     margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 2em;
 
 }
 header h1 {
