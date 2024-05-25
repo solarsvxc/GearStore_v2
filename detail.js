@@ -1,15 +1,12 @@
 
 let products = null;
 // get datas from file json
-
-    if () {
-        
+ 
         fetch('/json/cpu.json').then(response => response.json()).then(data => {
             products = data;
             showDetail();
         })
-    }
-
+    
 function showDetail(){
 // remove datas default from HTML
 let detail = document.querySelector('.row-product');
