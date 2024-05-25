@@ -1,73 +1,73 @@
 [
     {
         "id": 1,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+        "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 2,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 3,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 4,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 5,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 6,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 7,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 8,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 9,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     },
     {
         "id": 10,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Logitech G102 LightSync",
+        "price": "200.000" ,
+        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
+        "brand":"Logitech"
     }
     
    

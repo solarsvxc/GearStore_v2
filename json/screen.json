@@ -1,73 +1,73 @@
 [
     {
         "id": 1,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+        "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 2,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 3,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 4,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 5,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 6,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 7,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 8,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 9,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     },
     {
         "id": 10,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
-        "brand":"Intel"
+       "name":"Màn hình Dell 23.8inch P2422H",
+        "price": "2.499.000" ,
+        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "brand":"DELL"
     }
     
    
