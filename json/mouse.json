@@ -1,74 +1,85 @@
 [
-    {
-        "id": 1,
-        "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 2,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 3,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 4,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 5,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 6,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 7,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 8,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 9,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    },
-    {
-        "id": 10,
-       "name":"Logitech G102 LightSync",
-        "price": "200.000" ,
-        "image": "img/mouse/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi.webp",
-        "brand":"Logitech"
-    }
     
-   
+        {
+            "id": 1,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 2,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 3,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 4,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 5,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 6,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 7,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 8,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 9,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        },
+        {
+            "id": 10,
+            "name": "Logitech G304 Light Speed",
+            "price": "200.000.000",
+            "image": "img/mouse/chuot-gaming-khong-day-logitech-g304-lightspeed.webp",
+            "brand": "Logitech",
+            "info": ""
+        }
+    
+    
 ]

@@ -16,3 +16,37 @@
  .filter-warpper .dropdown a {
      font-weight: 500;
  }
+ .card {
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+    color: #222;
+  }
+
+  .button-mua {
+    margin-left: 1em;
+    background-color: #e00049;
+    width: 8.5em;
+    height: 1.9em;
+    border: #e00049 0.2em solid;
+    border-radius: 8px;
+
+  }
+  .button-links{
+    color: #fff;
+  }
+  .button-mua div {
+    margin: 0 0.2em 0 0.2em;
+  }
+  .button-mua:hover{
+    color: #fff;
+    background-color: #4E9F3D;
+    border: #4E9F3D 0.2em solid;
+    cursor: pointer;
+
+  }
+  .button-mua:hover .button-links {
+    color: #fff;
+    background-color: #4E9F3D;
+    cursor: pointer;
+  }
+  

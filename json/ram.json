@@ -4,70 +4,80 @@
         "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 2,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 3,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 4,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 5,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 6,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 7,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 8,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 9,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     },
     {
         "id": 10,
        "name":" Ram Corsair Dominator Platinum RGB 2x16GP 5200mhz DDR5",
         "price": "2.500.000" ,
         "image": "img/ram/ram-pc-corsair-dominator-platinum-rgb-32gb-2x16gb-5200mhz-ddr5_1_.webp",
-        "brand":"Corsair"
+        "brand":"Corsair",
+        "info":""
     }
     
    

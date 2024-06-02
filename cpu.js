@@ -16,24 +16,26 @@ let listProductHTML = document.querySelector('.listProduct');
 if(products != null) // if has data
 {
     products.forEach(product => {
-        let newProduct = document.createElement('a');
-        const linkss = '/detail.html?id=' + product.id;
-        newProduct.href = '/detail.html?id=' + product.id;
-        newProduct.classList.add('item');
-        newProduct.classList.add('card');
-        newProduct.classList.add('col-2');
-        newProduct.classList.add('items');
+        let newProduct = document.createElement('div');
+        const links = '/detail.html?id=' + product.id;
+        newProduct.classList.add('col-md-3');
         newProduct.innerHTML = 
         `
-        <div>
-        <img src="${product.image}" alt="" class="card-img-top">
+        <div class="card" style="width: 18rem;">
+        <img src="${product.image}" class="card-img-top" alt="">
         <div class="card-body">
-            <h5 class="card-title">${product.name}</h5>
-            <h6 class="card-subtitle">${product.price}<sup>đ</sup></h6>
-            <a href="${linkss}" class="card-link">Mua Ngay</a>
-           <button  class="btn btn-primary"><i class="fas fa-shopping-cart"></i></button>
+        <h5 class="card-title">${product.name}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">${product.brand}</h6>
+        <p class="card-text">${product.info}</p>
+        <div class="d-flex align-item-center">
+        <p>${product.price}</p>
+        <button class="button-mua">  
+           <a class="button-links" href="${links}">Mua Ngay</a>
+          </button>
         </div>
         </div>
+        </div>
+        
         `;
         
         listProductHTML.appendChild(newProduct);
