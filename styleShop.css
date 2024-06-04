@@ -330,18 +330,15 @@ nav{
 .card{
     padding: 20px;
 }
-.card-2{
-    padding: 15px;
-}
 .card-body .card-title{
     font-size: 14px;
     font-weight: 700;
-    
 }
 .card-body .card-subtitle{
     color: #e00049;
     font-size: 15px;
 }
+/*  */
 .more-btn{
     background: none;
     color: #e00049;
