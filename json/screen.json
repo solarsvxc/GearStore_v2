@@ -1,81 +1,81 @@
 [
     {
         "id": 1,
-        "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+        "name":"Màn hình Gaming E-Dra EGM22F75P 22 inch",
+        "price": "1.590.000" ,
+        "image": "img/screen/1.590.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 2,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình MSI Pro MP223 22 inch",
+        "price": "1.690.000" ,
+        "image": "img/screen/1.690.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 3,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình Gaming ASRock Challenger CL25FF 24.5 inch",
+        "price": "2.090.000" ,
+        "image": "img/screen/2.090.000k.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 4,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình Monitor Xiaomi 27 inch A27i ELA5345EU",
+        "price": "2.390.000" ,
+        "image": "img/screen/2.390.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 5,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình Gaming ASUS TUF VG246H1A 24 inch",
+        "price": "2.590.000" ,
+        "image": "img/screen/2.590.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 6,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình Philips 24M1N3200ZA 24 inch",
+        "price": "2.890.000" ,
+        "image": "img/screen/2.890.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 7,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình di động Asus ZenScreen MB166CR 15.6 inch",
+        "price": "3.690.000" ,
+        "image": "img/screen/3.690.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 8,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình Samsung LU28R550UQEXXV 28 inch",
+        "price": "5.490.000" ,
+        "image": "img/screen/5.490.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 9,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình LG 27 inch 27UP600",
+        "price": "5.990.000" ,
+        "image": "img/screen/5.990.000.webp",
         "brand":"DELL",
         "info":""
     },
     {
         "id": 10,
-       "name":"Màn hình Dell 23.8inch P2422H",
-        "price": "2.499.000" ,
-        "image": "img/screen/man-hinh-dell-23.8ich-p2422H.webp",
+       "name":"Màn hình Samsung Gaming Odyssey G5 LC34G55TWWEXXV 34 inch",
+        "price": "7.590.000" ,
+        "image": "img/screen/7.590.000.webp",
         "brand":"DELL",
         "info":""
     }
