@@ -3,7 +3,7 @@
         "id": 1,
         "name":" Ram PC Corsair Beast Vengeance RGB RS 16GB 3200MHz (2X8GB) DDR4",
         "price": "1.290.000" ,
-        "image": "GearStore_v2/img/Ram/1.290.000.webp",
+        "image": "img/Ram/1.290.000.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -11,7 +11,7 @@
         "id": 2,
        "name":" RAM PC Corsair Vengeance LPX 8GB 3200MHz DDR4",
         "price": "590.000" ,
-        "image": "GearStore_v2/img/Ram/590k.webp",
+        "image": "img/Ram/590k.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -19,7 +19,7 @@
         "id": 3,
        "name":" RAM PC Corsair DOMINATOR PLATINUM RGB 32GB (2X16GB) 5200MHZ DDR5",
         "price": "3.790.000" ,
-        "image": "GearStore_v2/img/Ram/3.790.000.webp",
+        "image": "img/Ram/3.790.000.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -27,7 +27,7 @@
         "id": 4,
        "name":" RAM PC Corsair Vengeance DDR5 16GB (1x16GB) 5200MHZ ",
         "price": "1.490.000" ,
-        "image": "GearStore_v2/img/Ram/1.490.000.webp",
+        "image": "img/Ram/1.490.000.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -35,7 +35,7 @@
         "id": 5,
        "name":" RAM Laptop Lexar 8GB 3200MHZ DDR4 CL22",
         "price": "550.000" ,
-        "image": "GearStore_v2/img/Ram/550k.webp",
+        "image": "img/Ram/550k.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -43,7 +43,7 @@
         "id": 6,
        "name":" RAM PC Corsair Vengeance LPX 8GB 3200MHz DDR4",
         "price": "599.000" ,
-        "image": "GearStore_v2/img/Ram/599k.webp",
+        "image": "img/Ram/599k.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -51,7 +51,7 @@
         "id": 7,
        "name":" RAM PC ADATA XPG D50 RGB 8GB (1x8GB) 3200MHz DDR4",
         "price": "690.000" ,
-        "image": "GearStore_v2/img/Ram/690k.webp",
+        "image": "img/Ram/690k.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -59,7 +59,7 @@
         "id": 8,
        "name":" RAM PC Corsair Vengeance RGB RS 8GB 3200MHz DDR4 ",
         "price": "750.000" ,
-        "image": "GearStore_v2/img/Ram/750k.webp",
+        "image": "img/Ram/750k.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -67,7 +67,7 @@
         "id": 9,
        "name":" Ram Laptop Corsair 8GB 4800MHz DDR5 CMSX8GX5M1A4800C40",
         "price": "790.000" ,
-        "image": "GearStore_v2/img/Ram/790k.webp",
+        "image": "img/Ram/790k.webp",
         "brand":"Corsair",
         "info":""
     },
@@ -75,7 +75,7 @@
         "id": 10,
        "name":" RAM PC Kingston Fury Beast Black 16GB 3200MHz DDR4 KF432C16BB1/16",
         "price": "999.000" ,
-        "image": "GearStore_v2/img/Ram/999k.webp",
+        "image": "img/Ram/999k.webp",
         "brand":"Corsair",
         "info":""
     }

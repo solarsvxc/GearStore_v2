@@ -3,7 +3,7 @@
         "id": 1,
         "name":"Bàn phím cơ không dây AKKO 3068B Plus Prunus Lannesiana",
         "price": "1.290.000" ,
-        "image": "GearStore_v2/img/keyboard/1.290.000k.webp",
+        "image": "img/keyboard/1.290.000k.webp",
         "brand":"AKKO",
         "info":""
     },
@@ -11,7 +11,7 @@
         "id": 2,
        "name":"Bàn phím Apple Magic Keyboard 2021 MK2A3 | Chính hãng Apple Việt Nam",
         "price": "1.900.000" ,
-        "image": "GearStore_v2/img/keyboard/1.990.000k.webp",
+        "image": "img/keyboard/1.990.000k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -19,7 +19,7 @@
         "id": 3,
        "name":"Bàn phím Magic Keyboard Trackpad Apple iPad Gen 10 (10.9-inch 2022)",
         "price": "4.290.000" ,
-        "image": "GearStore_v2/img/keyboard/4.290.000k.webp",
+        "image": "img/keyboard/4.290.000k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -27,7 +27,7 @@
         "id": 4,
        "name":"Bàn phím cơ có dây Dareu EK810",
         "price": "390.000" ,
-        "image": "GearStore_v2/img/keyboard/390k.webp",
+        "image": "img/keyboard/390k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -35,7 +35,7 @@
         "id": 5,
        "name":"Bàn phím cơ có dây Dareu EK87 TKL Multi Led Brown Switch",
         "price": "489.000" ,
-        "image": "GearStore_v2/img/keyboard/489.000k.webp",
+        "image": "img/keyboard/489.000k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -43,7 +43,7 @@
         "id": 6,
        "name":"Bàn phím cơ có dây DAREU EK87 V2 Multi Led Đen",
         "price": "490.000" ,
-        "image": "GearStore_v2/img/keyboard/490k.webp",
+        "image": "img/keyboard/490k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -51,7 +51,7 @@
         "id": 7,
        "name":"Bàn phím cơ E-DRA không dây EK368L BK đen trắng Red Switch",
         "price": "499.000" ,
-        "image": "GearStore_v2/img/keyboard/499k.webp",
+        "image": "img/keyboard/499k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -59,7 +59,7 @@
         "id": 8,
        "name":"Bàn phím cơ Dareu EK75 trắng",
         "price": "599.000" ,
-        "image": "GearStore_v2/img/keyboard/599k.webp",
+        "image": "img/keyboard/599k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -67,7 +67,7 @@
         "id": 9,
        "name":"Bàn phím cơ E-DRA không dây EK398L Alpha xám trắng Brown Switch",
         "price": "649.000" ,
-        "image": "GearStore_v2/img/keyboard/649k.webp",
+        "image": "img/keyboard/649k.webp",
        "brand":"AKKO",
         "info":""
     },
@@ -75,7 +75,7 @@
         "id": 10,
        "name":"Bàn phím cơ AKKO Monsgeek MG75 Black & Cyan",
         "price": "999.000" ,
-        "image": "GearStore_v2/img/keyboard/999k.webp",
+        "image": "img/keyboard/999k.webp",
        "brand":"AKKO",
         "info":""
     }

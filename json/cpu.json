@@ -1,80 +1,80 @@
 [
     {
         "id": 1,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
+        "name":"CPU Intel Core i3 12100F",
+        "price": "2.290.000" ,
         "image": "img/cpu/core-i3-12100f.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 2,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"CPU Intel Core i5 12400",
+        "price": "4.190.000" ,
+        "image": "img/cpu/core-i5-12400.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 3,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"Cpu Core I5 13400F",
+        "price": "5.090.000" ,
+        "image": "img/cpu/core-i5-13400f.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 4,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"Cpu Core I5 13500",
+        "price": "4.190.000" ,
+        "image": "img/cpu/cpu-intel-core-i5-13500_2_.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 5,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"Cpu Core I7 14700K",
+        "price": "10.950.000" ,
+        "image": "img/cpu/cpu-intel-core-i7-14700k_2_.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 6,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"Cpu Core I9 14900F",
+        "price": "15.490.000" ,
+        "image": "img/cpu/cpu-intel-core-i9-14900_1_.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 7,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"Cpu Core I9 14900K",
+        "price": "15.290.000" ,
+        "image": "img/cpu/cpu-intel-core-i9-14900k_1_.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 8,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"Cpu Ryzen 5 5600",
+        "price": "3.900.000" ,
+        "image": "img/cpu/Ryzen 5 5600.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 9,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
-        "image": "img/cpu/core-i3-12100f.webp",
+        "name":"Cpu Ryzen 5 5600G",
+        "price": "3.790.000" ,
+        "image": "img/cpu/Ryzen 5 5600G.webp",
         "brand":"Intel",
         "info":""
     },
     {
         "id": 10,
-        "name":"Cpu Core I3 13400F",
-        "price": "200.000.000" ,
+        "name":"Cpu Core I3 12100F",
+        "price": "3.290.000" ,
         "image": "img/cpu/core-i3-12100f.webp",
         "brand":"Intel",
         "info":""
