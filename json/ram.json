@@ -73,9 +73,9 @@
     },
     {
         "id": 10,
-       "name":" RAM PC Kingston Fury Beast Black 16GB 3200MHz DDR4 KF432C16BB1/16",
+        "name":" RAM PC Kingston Fury Beast Black 16GB 3200MHz DDR4 KF432C16BB1/16",
         "price": "999.000" ,
-        "image": "GearStore_v2/img/Ram/999k.webp",
+        "image": "img/Ram/999k.webp",
         "brand":"Corsair",
         "info":""
     }

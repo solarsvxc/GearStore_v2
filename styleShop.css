@@ -434,17 +434,51 @@ nav{
         }
  }
 /*  */
-.ftr__list {
-  border:1px solid #ddd;
+
+/*  */
+
+footer {
+  color: #191A19;
+  padding: 20px;
 }
-@media only screen and (max-width : 767px) {
-/**nav-expand for footer with head and ul**/
-.nav-folderized .nav h4 { cursor: pointer; }
-.nav-folderized ul { max-height: 0; overflow:hidden; transition: max-height 1s ease-out; }
-.nav-folderized .nav h4:after { content: "+"; float: right; }
-.nav-folderized .nav.open h4:after { content: "-"; }
-.nav-folderized .nav.open ul { height:auto; max-height: 500px; transition: max-height 1s ease-in !important; }
-/**nav-expand for footer with head and ul**/
+
+.footer-section {
+  margin-bottom: 10px;
 }
+
+.footer-header {
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px; /* Add padding for the icon space */
+}
+.footer-header i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none; /* Hide icon by default */
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin: 5px 0;
+}
+
+/* Collapsible styles only apply for small screens */
+@media (max-width: 768px) {
+  .footer-list {
+      display: none;
+  }
+
+  .footer-section.active .footer-list {
+      display: block;
+  }
+}
+
 
  
