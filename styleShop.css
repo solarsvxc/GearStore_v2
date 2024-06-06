@@ -20,10 +20,9 @@ li{
     --text-color: #ffffff;
   }
 nav{
-    height: 60px;
+    height: 100%;
     background-color: var(--color-1);
     display: flex;
-    justify-content: flex-end;
     align-items: center;
   }
   .links-container{
@@ -32,7 +31,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   nav a{
     height: 100%;
@@ -45,9 +44,7 @@ nav{
   nav a:hover{
     background-color: var(--accent-color);
   }
-  nav .home-link{
-       
-  }
+
   nav svg{
     fill: var(--text-color);
   }
@@ -63,6 +60,12 @@ nav{
   .logo-end {
     display: none;
   }
+ @media (min-width: 1080px)  {
+  .device-shop a {
+   width: -99999px;
+  }
+ }
+  
   @media(max-width: 1080px){
     .logo-end {
         display: contents;
@@ -94,6 +97,9 @@ nav{
       padding: 20px;
       display: block;
     }
+    .device-shop li a{
+      color: #191A19;
+    }
     #sidebar-active:checked ~ .links-container{
       right: 0;
     }
@@ -105,8 +111,8 @@ nav{
       left: 0;
       z-index: 9;
     }
-    .product-most{
-        display: none;
+    .device-tag {
+      display: none;
     }
   }
 
@@ -164,7 +170,6 @@ nav{
 /*  */
 .container-header {
     max-width: 100%;
-    max-height: 10%;
 }
 
 .bannerTopHead{
@@ -180,7 +185,7 @@ nav{
     align-items: center;
     margin: 20px;
     position: relative;
-    max-width: 100px;
+    max-width: 200px;
 
    }
 
@@ -284,13 +289,11 @@ nav{
 .device-tag {
     background-color: white;
 }
-.img-banner-slide{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-.img-banner-slide .img {
-    max-width: 500px;
+
+@media (min-width:390px) {
+    .container-header {
+      display: none;
+    }
     
 }
 .brand{
