@@ -14,11 +14,50 @@ a {
 li{
     list-style-type: none;
 }
+.more {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.more {
+  color: #333;
+  background-color: #ececec;
+  width: 8.5em;
+  height: 2.9em;
+  border: none;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+
+.more:hover {
+  cursor: pointer;
+}
+
+.more svg {
+  width: 2em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.2s ease;
+}
+
+.more:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em
+}
 /*  */
 :root{
     --color-1: #fffff;
     --text-color: #ffffff;
   }
+  /*  */
+  .head-product-sale {
+    border-bottom: 0.2px solid #333;
+  }
+
+  /*  */
 nav{
     height: 100%;
     background-color: var(--color-1);
@@ -72,15 +111,17 @@ nav{
         content: "";
       }
     .links-container{
+      display: block;
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
+      justify-content: none;
       position: fixed;
       top: 0;
       right: -100%;
       z-index: 10;
       width: 300px;
-  
+      
       background-color: #ffffff;
       box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
       transition: 0.75s ease-out;
@@ -185,7 +226,7 @@ nav{
     align-items: center;
     margin: 20px;
     position: relative;
-    max-width: 200px;
+    max-width: 100px;
 
    }
 
