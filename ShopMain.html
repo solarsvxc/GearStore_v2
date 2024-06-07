@@ -481,36 +481,36 @@
                     <!-- Add more sections as needed -->
                 </footer>
             </div>
-        
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+         var sections = document.querySelectorAll('.footer-section');
+     
+         sections.forEach(function (section) {
+             var header = section.querySelector('.footer-header');
+             var list = section.querySelector('.footer-list');
+     
+             header.addEventListener('click', function () {
+                 if (!section.classList.contains('active')) {
+                     closeAllSections();
+                     section.classList.add('active');
+                 } else {
+                     section.classList.remove('active');
+                 }
+             });
+         });
+     
+         function closeAllSections() {
+             sections.forEach(function (section) {
+                 section.classList.remove('active');
+             });
+         }
+     });
+     
+            </script>
         <div class="row last bg-black text-center align-items-center">
                 <p style="color: white; font-size: 13px;">Copyright<sup>&#174;</sup> GearStore by Nguyen Nguyen Duong - Le Hoang 2024, Da Nang</p>
         </div>
-        <script>
-           document.addEventListener('DOMContentLoaded', function () {
-    var sections = document.querySelectorAll('.footer-section');
-
-    sections.forEach(function (section) {
-        var header = section.querySelector('.footer-header');
-        var list = section.querySelector('.footer-list');
-
-        header.addEventListener('click', function () {
-            if (!section.classList.contains('active')) {
-                closeAllSections();
-                section.classList.add('active');
-            } else {
-                section.classList.remove('active');
-            }
-        });
-    });
-
-    function closeAllSections() {
-        sections.forEach(function (section) {
-            section.classList.remove('active');
-        });
-    }
-});
-
-       </script>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         
     </body>

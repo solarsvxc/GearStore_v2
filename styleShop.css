@@ -14,6 +14,9 @@ a {
 li{
     list-style-type: none;
 }
+.footer-header{
+   font-size: 18px;
+}
 .more {
   justify-content: flex-end;
   margin-left: auto;
