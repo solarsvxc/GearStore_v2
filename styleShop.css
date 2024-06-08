@@ -159,7 +159,46 @@ nav{
       display: none;
     }
   }
+  /* new */
 
+  .limix {
+    color: #ffffff;
+  }
+  .infor-adv p {
+    font-size: 16px;
+  }
+  .infor-adv button {
+    padding: 0 10px 0 10px;
+    border-radius: 8px;
+    background-color: #FD9B63;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    color: #365E32;
+  }
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  #advertisement-image,
+  #product-type {
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade {
+    opacity: 0;
+  }
+
+  
+
+  
+ 
+  
 /*  */
 @keyframes marquee {
   0% {
@@ -169,7 +208,12 @@ nav{
       transform: translateX(-100%);
   }
 }
-
+.maxim{
+  background-color: #365E32;
+}
+.limix{
+  background-color: #81A263;
+}
 .slide {
   width: 100%;
   display: flex;
@@ -178,8 +222,7 @@ nav{
   height: 15em;
   margin-top: 3rem;
   overflow: hidden;  /* Prevents scrollbars during animation */
-  background-color: #C5E8C5;
-  margin-bottom: 3rem;
+  background-color: #365E32;
 }
 
 .marquee-container {
@@ -207,7 +250,7 @@ nav{
   margin: 0.5em 0 0;
   line-height: 1.5;
   font-weight: 600;
-  color: #000000;
+  color: #E7D37F;
 }
 
 
