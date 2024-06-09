@@ -21,19 +21,19 @@ if(products != null) // if has data
         newProduct.classList.add('col-md-3');
         newProduct.innerHTML = 
         `
-        <div class="card" style="width: 18rem;">
-        <img src="${product.image}" class="card-img-top" alt="">
-        <div class="card-body">
-        <h5 class="card-title">${product.name}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">${product.brand}</h6>
-        <p class="card-text">${product.info}</p>
-        <div class="d-flex align-item-center">
-        <p>${product.price}</p>
-        <button class="button-mua">  
-           <a class="button-links" href="${links}">Mua Ngay</a>
-          </button>
-        </div>
-        </div>
+        <div class="card">
+            <img src="${product.image}" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">${product.name}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">${product.brand}</h6>
+                    <p class="card-text">${product.info}</p>
+                        <div class="d-flex align-item-center">
+                            <p>${product.price}</p>
+                            <button class="button-mua">  
+                            <a class="button-links" href="${links}">Mua Ngay</a>
+                            </button>
+                        </div>
+                </div>
         </div>
         
         `;

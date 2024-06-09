@@ -1,7 +1,9 @@
 
 let products = null;
-// get datas from file json
- 
+
+
+// Đường dẫn tới tệp JSON
+
         fetch('/json/cpu.json').then(response => response.json()).then(data => {
             products = data;
             showDetail();
@@ -16,7 +18,6 @@ let thisProduct = products.filter(value => value.id == productId)[0];
 if(!thisProduct){
     window.location.href = "/";
 }
-
 detail.querySelector('.product-img img ').src = thisProduct.image;
 detail.querySelector('.product-title ').innerText = thisProduct.name;
 detail.querySelector('.product-price ').innerText = thisProduct.price;

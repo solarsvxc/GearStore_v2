@@ -57,8 +57,13 @@ li{
   }
   /*  */
   .head-product-sale {
-    border-bottom: 0.2px solid #333;
+    border-bottom: 2px solid #333;
   }
+  .header-topic {
+    font-weight: 700;
+    font-size: 32px;
+  
+ }
 
   /*  */
 nav{
@@ -193,12 +198,19 @@ nav{
   .fade {
     opacity: 0;
   }
+/*  */
+.img-salt {
+  overflow: hidden;
+  position: relative;
+}
 
-  
+.img-salt img {
+  transition: transform 3.5s ease;
+}
 
-  
- 
-  
+.img-salt:hover img {
+  transform: scale(1.2); /* Phóng to ảnh lên 1.5 lần */
+}
 /*  */
 @keyframes marquee {
   0% {
@@ -221,7 +233,7 @@ nav{
   align-items: center;
   height: 15em;
   margin-top: 3rem;
-  overflow: hidden;  /* Prevents scrollbars during animation */
+  overflow: hidden;
   background-color: #365E32;
 }
 
@@ -364,7 +376,6 @@ nav{
     display: flex;
     position: relative;
     align-items: center;
-   
 }
 .device-torch  a {
     font-weight: 500;
@@ -376,12 +387,10 @@ nav{
 .device-tag {
     background-color: white;
 }
-
 @media (min-width:390px) {
     .container-header {
       display: none;
-    }
-    
+    } 
 }
 .brand{
     padding: 10px;
@@ -390,7 +399,6 @@ nav{
 }
 .brand .header-brand h3{
     font-weight: 500;
-
 }
 .needs-link{
     background:#4E9F3D;
@@ -402,7 +410,6 @@ nav{
     font-size: 16px;
     padding: 8px;
 }
-
 .needs{
     margin-top: 20px;
     border-radius: 16px;
@@ -429,10 +436,7 @@ nav{
     font-size: 15px;
 }
 /*  */
-.more-btn{
-    background: none;
-    color: #e00049;
-}
+
 .btn-2{
     background-color: #e00049;
     color: #ffffff;
@@ -441,16 +445,10 @@ nav{
     max-height: 100px;
     font-size: 14px;
 }
-.padding-top-bottom-175rem{
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
-}
 .btn-card{
     background-color: #e00049;
     color: #ffffff;
     font-weight: 700;
-    max-width: 200px ;
-    max-height: 100px;
     font-size: 14px;
 }
 
@@ -476,12 +474,6 @@ nav{
     font-weight: 400;
     font-style: normal;
 }
- .header-topic {
-   font-weight: 700;
-   font-size: 32px;
-   
-}
-
 .product-most{
     background: #e8f2cb;
     padding: 10px;
@@ -497,15 +489,7 @@ nav{
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
   }
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+
 .location-list .mt-2 a {
     color: #e00049;
 }
@@ -571,7 +555,6 @@ footer {
 }
 
 .dropdown{
-  
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }

@@ -12,7 +12,6 @@ const images = [
 ];
 const types = ["27inch UltraGear™ (27GR95UM) MiniLED 4K UHD Nano IPS 144Hz 1ms G-SYNC® Compatible Gaming Monitor", "32inch UltraGear™ OLED Dual Mode 4K UHD 240Hz"];
 
-// Tạo các chỉ báo
 const indicatorsContainer = document.getElementById('indicators');
 createIndicators();
 
@@ -30,8 +29,6 @@ function createIndicators() {
   });
 }
 
-
-
 function updateIndicators() {
   const indicators = document.querySelectorAll('.indicator');
   indicators.forEach((indicator, index) => {
@@ -42,19 +39,16 @@ function updateIndicators() {
 
 function changeContent(index = (currentImageIndex + 1) % images[currentTypeIndex].length) {
   currentImageIndex = index;
-
   const image = document.getElementById('advertisement-image');
   const type = document.getElementById('product-type');
 
   // Thêm lớp fade để bắt đầu quá trình mờ dần
   image.classList.add('fade');
   type.classList.add('fade');
-
   // Thay đổi nội dung sau khi quá trình mờ dần bắt đầu
   setTimeout(() => {
     image.src = images[currentTypeIndex][currentImageIndex];
     type.innerText = types[currentTypeIndex];
-
     // Loại bỏ lớp fade để quá trình hiển thị lại bắt đầu
     image.classList.remove('fade');
     type.classList.remove('fade');
@@ -63,9 +57,6 @@ function changeContent(index = (currentImageIndex + 1) % images[currentTypeIndex
     updateProgressBar();
   }, 500); // Thời gian này nên nhỏ hơn thời gian trong CSS để tránh bị ngắt quãng
 }
-
-// Tự động thay đổi nội dung sau mỗi 3 giây
-// ...
 
 // Tự động thay đổi nội dung sau mỗi 3 giây
 setInterval(() => {
