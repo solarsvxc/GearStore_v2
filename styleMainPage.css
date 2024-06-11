@@ -7,161 +7,204 @@
     margin: 0;
     padding: 0;
 }
-
+  body {
+    background-color: black;
+  }
+.text-subtitle{
+  color: white;
+}
 a{
     text-decoration: none;
 }
-body {
-    background-color: #191A19;
-}
-nav{
-    max-width: 1200px;
-    margin: auto;
+
+
+/*  */
+
+  
+  .links-container{
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 2rem 1rem;
-    align-items: center;
-    gap: 2rem;
-    
-}
-.navbar-logo{
-    max-width: 100px;
-}
-.nav-link{
-    display: flex;
-    gap: 4rem;
-}
-.links, a{
-    font-weight: 700;
-    color: #4E9F3D;
-}
-.links a::after{
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 0;
-    bottom: 0;
-    left: 0;
-    transition: all 0.3s ease;
-    background-color: #D8E9A8;
-}
-.links a:hover::after {
-    width: 70%;
-}
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 8rem 2rem;
-}
-
-.blur{
-    position: relative;
-    box-shadow: 0 0 1000px 50px #4E9F3D;
-    z-index: -100px;
-}
-header{
-    position: relative;
-    padding-top: 2rem;
-    display: grid;
-    gap: 2rem;
-    align-items: center;
-
-}
-header .container {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    font-weight: 900;
-}
-h4{
-    font-weight: 900;
-    color: #D8E9A8;
-}
-header .content .content-1 {
-    color: #D8E9A8;
-    padding-top: 3rem;
-    margin-bottom: 1rem;
-    font-size: 16px;
-    line-height: 2em;
-
-}
-header h1 {
+    flex-direction: row;
+  }
+  .list-link a{
+    display: flexbox;
+    font-size: 18px;
+    padding: 0 20px;
+    text-decoration: none;
     color: white;
-}
+  }
+  nav .home-link{
+   margin-right: auto;
+   backdrop-filter: blur(100px);
+   
+  }
+  nav svg{
+    fill: var(--text-color);
+  }
+  #sidebar-active{
+    display: none;
+  }
+  .open-sidebar-button, .close-sidebar-button{
+    display: none;
+  }
+  @media(max-width: 450px){
+    .links-container{
+      flex-direction: column;
+      align-items: flex-start;
+      position: fixed;
+     
+      top: 0;
+      right: -100%;
+      z-index: 10;
+      width: 300px;
+      background-color: var(--color-1);
+      box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+      transition: 0.75s ease-out;
+    }
+    nav .home-link a {
+     align-items: center;
+     padding-left: 50px;
+    }
+    nav .list-link{
+      box-sizing: border-box;
+      display: grid;
+      height: auto;
+      width: 100%;
+      padding: 20px 30px;
+      gap: 40px;
+      
+    }
+    .open-sidebar-button, .close-sidebar-button{
+      padding: 20px;
+      display: block;
+    }
+    #sidebar-active:checked ~ .links-container{
+      right: 0;
+    }
+    #sidebar-active:checked ~ #overlay{
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+  }
 
-header .blur-2{
-    position:absolute ;
-    right: 100rem;
-    bottom: 1rem;
-    right: 100px;
-    box-shadow: 0 0 1000px 50px #D8E9A8;
-}
-section .header {
-    padding-top: 4rem;
-    margin-bottom: 1rem;
-    color: #D8E9A8;
-    text-align: center;
-    font-size: 3rem;
+  /*  */
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0));
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0));
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+/*  */
+  .section-banner-header {
+    background: url(img/introduced/wei-hsiang-zeng-20190807st6v2.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: auto;
+  }
+  .section-banner-header .text-in{
+    padding: 20%;  
+  }
+  .section-banner-header .header-section {
+    color: white;
+    font-size: 64px;
     font-weight: 600;
-}
-.feature {
-    margin-top: 3rem;
-    display: flex;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
-}
-.feature .card{
-    background-color: #4E9F3D;
-    padding: 1rem;
+  }
 
-}
-.feature .imgcard {
-    padding-bottom: 2rem;
-    height: 40px;
-
-    
-}
-.card a {
-    color: #D8E9A8;
-}
-.feature .card span{
-    background-color: #D8E9A8;
-    margin-bottom: 1rem;
-    padding: 2px 10px;
-    border-radius: 8%;
-}
-.feature h4 {
-    margin-bottom: 1rem;
-}
-.shopname{
-    color: #D8E9A8;
-    font-weight: 800;
-}
-
-.card .button {
-    
-    --hover-bg: #D8E9A8;
-    --hover-text: #000;
-    margin-top: 20px;
-    color: #D8E9A8;
+  /*  */
+  .header-partner p {
+    font-size: 32px;
     font-weight: 500;
-    cursor: pointer;
-    border: 1px solid var(--bg);
-    border-radius: 4px;
-    padding: 0.8em 2em;
-    background: var(--bg);
-    transition: 0.2s;
+    border-bottom: 3px solid #F7F7F7;
+    color: #F7F7F7;
+    width: fit-content;
   }
-  
-.card  .button:hover  {
-    color: var(--hover-text);
-    transform: translate(-0.25rem, -0.25rem);
-    background: var(--hover-bg);
-    box-shadow: 0.25rem 0.25rem var(--bg);
-  }
-  
-.card .button:active {
-    transform: translate(0);
-    box-shadow: none;
-  }
-  
 
+  /*  */
+  .off-1 .head {
+      color: #F7F7F7;
+      font-size: 32px;
+      font-weight: 600;
+  }
+  .off-1 .sub {
+    font-family: 'Airbnb Cereal App Light';
+    font-size: 16px;
+    font-weight: 0;
+    color: #F7F7F7;
+  }
+
+
+
+
+
+  /*  */
+  @media (max-width:767px){
+    .section-banner-header {
+      background: url(img/introduced/wei-hsiang-zeng-20190807st6v2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 300px;
+
+    }
+    .section-banner-header .text-in{
+      padding: 10%;
+      backdrop-filter: blur(10px);
+    }
+    .section-banner-header .header-section {
+      color: white;
+      font-size:24px;
+      font-weight: 600;
+    }
+    .logos-slide img {
+      height: 30px;
+      margin: 0 40px;
+    }
+  }
