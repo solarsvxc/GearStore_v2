@@ -9,6 +9,7 @@
 }
   body {
     background-color: black;
+
   }
 .text-subtitle{
   color: white;
@@ -180,6 +181,93 @@ a{
     font-weight: 0;
     color: #F7F7F7;
   }
+/*  */
+.best-oy p {
+  font-size: 64px;
+  font-weight: 700;
+  color: #F7F7F7;
+  margin:30px 0 30px 0;
+}
+
+/*  */
+
+.news .news-head {
+    color: #F7F7F7;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.news-warp-1 {
+  background: url(img/news/ns1.jpg);
+}
+.news-warp-2{
+  background: url(img/news/ns2.jpg);
+}
+.news-warp-3{
+  background:url(img/news/ns3.jpg);
+}
+.news .row .col p {
+  margin-top: 400px;
+  color: #F7F7F7;
+}
+/*  */
+.img-trak {
+  margin-top: 10vh;
+}
+.quote {
+  margin-top: 30em;
+  margin-bottom: 30em;
+}
+.quote p {
+  color: #F7F7F7;
+  font-size: 5em;
+  font-family: 'Roboto Serif';
+}
+
+.quote p span {
+  font-size: 16px;
+  opacity: 30%;
+}
+/*  */
+.wrapper {
+  height: 115vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+  color: #F7F7F7;
+}
+
+.typing-demo {
+ 
+  color: #F7F7F7;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Roboto Serif';
+  font-size: 4em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+/*  */
+footer p {
+  color: #F7F7F7;
+}
+
+
+
+
 
 
 
